@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    color: rgb(64, 64, 64);
+}
+
+.nav-menu{
+    width: 2rem;   
+    height: auto;
+    cursor: pointer;
+}
+.nav-menu:hover{
+    transition: 0. 2s;
+    background-color: rgba(0, 0, 0, 0.173);
+    border-radius: 50%;    
+}
+.nav-cart:hover{
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.173);
+    border-radius: 50%;    
+}
+.nav-cart{
+    width: 2rem;
+    height: auto;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+.nav-logo{
+    width: 9rem;
+    height: auto;
+    border-radius: 1rem;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.2rem;
+}
+    /*Hero Section - header */ 
+header{
+    width: 100vw;
+    height: 25rem;
+    background-image: url(/assets/Pczinhogamer.webp);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    padding: 2rem;
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    header{
+        background-size: auto 100%;
+        background-position: center;
+    }
+}
